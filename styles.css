@@ -206,10 +206,14 @@ textarea {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 10px;
-    margin: 10px;
+    justify-content: space-around;
 }
-.gallery-images .images img{
+
+/* .images{
+    flex: 0 0 33%;
+} */
+
+.images img{
     width: 70%;
     height: 70%;
     border-radius: 0%; 
@@ -217,9 +221,10 @@ textarea {
     margin: 5%;
     border: 2px solid aquamarine;
     border-radius: 10px;
+    flex-basis: 33%;
 }
 
-.gallery-images .images img:hover{
+.images img:hover{
     opacity: 0.8;
     box-shadow: 10px 10px 5px aquamarine;
     -moz-box-shadow: 10px 10px 5px aquamarine;
