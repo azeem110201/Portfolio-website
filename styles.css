@@ -201,3 +201,29 @@ textarea {
     text-align: center;
     color: aquamarine;
 }
+
+.gallery-images{
+    padding: 10px;
+    margin: 20px;
+}
+
+.gallery-images .images img{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 20%;
+    height: 20%;
+    border-radius: 0%; 
+    justify-content: space-evenly; 
+    padding: 5px;
+    margin: 5%;
+    border: 2px solid aquamarine;
+}
+
+.gallery-images .images img:hover{
+    opacity: 0.8;
+    box-shadow: 10px 10px 5px aquamarine;
+    -moz-box-shadow: 10px 10px 5px aquamarine;
+    -webkit-box-shadow: 10px 10px 5px aquamarine;
+    -khtml-box-shadow: 10px 10px 5px aquamarine;
+}
