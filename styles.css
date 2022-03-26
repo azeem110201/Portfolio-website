@@ -203,21 +203,20 @@ textarea {
 }
 
 .gallery-images{
-    padding: 10px;
-    margin: 20px;
-}
-
-.gallery-images .images img{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 20%;
-    height: 20%;
+    padding: 10px;
+    margin: 10px;
+}
+.gallery-images .images img{
+    width: 70%;
+    height: 70%;
     border-radius: 0%; 
-    justify-content: space-evenly; 
     padding: 5px;
     margin: 5%;
     border: 2px solid aquamarine;
+    border-radius: 10px;
 }
 
 .gallery-images .images img:hover{
