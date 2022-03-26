@@ -33,7 +33,7 @@ header{
     font-weight: bolder;
     font-size: 25px;
     text-align: center;
-    color: cornflowerblue;
+    /* color: rgb(241, 244, 248); */
 }
 
 .header-item:hover{
@@ -41,12 +41,19 @@ header{
     border: 2px solid aquamarine;
     background-color: transparent;
     border-radius: 5px;
-    background-color: #6e7275;
+    background-color: #ffffff;
+}
+
+.header-item a{
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
 }
 
 .header-item a:visited:hover{
-    color: rgb(66, 72, 87);
-    color: rgb(243, 234, 234);
+    color: rgb(241, 79, 79);
 }
 
 
@@ -64,15 +71,6 @@ header{
 .page-title:hover{
     width: 100px;
     transition-duration: 5s;
-}
-
-
-.intro img{
-    display: block;
-    margin-left: 10%;
-    width: 30%;
-    height: 30%;
-    border-radius: 0%;
 }
 
 .container{
