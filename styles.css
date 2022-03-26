@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-image: url("images/background.jpg");
+    background-size: 100vw 100vh;
+}
+
+img{
+    width: 100px;
+    height: 90px;
+    border-radius: 50%; 
+    padding: 4px;
+}
+
+header{
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;   /* centre the containers inside the header */
+    align-items: center;
+    /* border: 5px solid black; */
+    flex-wrap: wrap;
+    /* background-color: #7170d5; */
+}
+
+.header-item{
+    padding: 7px;
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+    color: cornflowerblue;
+}
+
+.header-item:hover{
+    padding: 10px;
+    border: 2px solid aquamarine;
+    background-color: transparent;
+    border-radius: 5px;
+    background-color: #6e7275;
+}
+
+.header-item a:visited:hover{
+    color: rgb(66, 72, 87);
+    color: rgb(243, 234, 234);
+}
+
+
+.page-title{
+    font-weight: 50px;
+    margin: auto;
+    text-align: center;
+    display: block;
+    color: #7fffd4;
+    font-size: larger;
+    margin-top: 50px;
+    text-shadow: 2px 2px #ff0000;
+}
+
+.page-title:hover{
+    width: 100px;
+    transition-duration: 5s;
+}
+
+
+.intro img{
+    display: block;
+    margin-left: 10%;
+    width: 30%;
+    height: 30%;
+    border-radius: 0%;
+}
+
+.container{
+    border: 5px solid #252827;
+    margin: auto;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 150px;
+    width: 70%;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    color: #35dbb5;
+}
+
+.container #name{
+    color: #a023f3;
+    cursor: pointer;
+}
+
+.container #name:hover{
+    color: #35dbb5
+}
+
+.container span #description{
+    margin: 10px;
+}
+
+#btn{
+    padding: 10px 30px;
+    margin: 10px 10px;
+    border: 2px solid #005a3c;
+    color: white;
+    background-color: transparent;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+#btn:hover {
+    background-color: rgb(114, 199, 80);
+    color: black;
+    cursor: pointer;
+    text-shadow: #3291df;
+}
+
+footer{
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    background-color: #2c58d3;
+    position: fixed;
+    bottom:0;
+}
+
+.about-container{
+    margin: auto;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 150px;
+    width: 70%;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 30px;
+    word-spacing: 10px;
+    color: #35dbb5;
+}
+
+.about-container strong{
+    color: #a023f3;
+    cursor: pointer;
+}
+
+.about-container strong:hover{
+    color: #35dbb5
+}
+
+form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+input {
+    margin: 20px;
+    padding: 20px 10px;
+    width: 25vw;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid aquamarine;
+}
+
+textarea {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 30vw;
+    height: 100px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: 5px solid aquamarine;
+}
+
+#submit {
+    margin-top: 20px;
+    width: 15vw;
+    background-color: transparent;
+    color: white;
+    border: 2px solid aquamarine;
+    border-radius: 5px;
+}
+
+#submit:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+#contact {
+    margin-top: 30px;
+    text-align: center;
+    color: aquamarine;
+}
