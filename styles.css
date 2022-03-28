@@ -22,16 +22,13 @@ header{
     flex-direction: row;
     justify-content: space-evenly;   /* centre the containers inside the header */
     align-items: center;
-    /* border: 5px solid black; */
     flex-wrap: wrap;
-    /* background-color: #7170d5; */
 }
 
 .header-item{
     padding: 7px;
-    text-transform: capitalize;
     font-weight: bolder;
-    font-size: 25px;
+    font-size: 30px;
     text-align: center;
     /* color: rgb(241, 244, 248); */
 }
@@ -113,9 +110,6 @@ a{
 
 #btn:hover {
     background-color: rgb(114, 199, 80);
-    color: black;
-    cursor: pointer;
-    text-shadow: #3291df;
 }
 
 footer{
