@@ -77,7 +77,7 @@ a{
     text-align: center;
     padding-top: 40px;
     padding-bottom: 40px;
-    margin-top: 150px;
+    margin-top: 100px;
     width: 70%;
     text-align: center;
     font-family: 'Fjalla One', sans-serif;
@@ -191,7 +191,7 @@ textarea {
 }
 
 #contact {
-    margin-top: 30px;
+    margin-top: 20px;
     text-align: center;
     color: aquamarine;
 }
@@ -200,7 +200,11 @@ textarea {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
 }
 
 /* .images{
@@ -208,8 +212,8 @@ textarea {
 } */
 
 .images img{
-    width: 70%;
-    height: 70%;
+    width: 430px;
+    height: 400px;
     border-radius: 0%; 
     padding: 5px;
     margin: 5%;
@@ -224,4 +228,22 @@ textarea {
     -moz-box-shadow: 10px 10px 5px aquamarine;
     -webkit-box-shadow: 10px 10px 5px aquamarine;
     -khtml-box-shadow: 10px 10px 5px aquamarine;
+}
+
+@media only screen and (max-width: 550px) {
+    .container{
+        width: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .container{
+        width: 100%;
+    }
 }
